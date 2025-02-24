@@ -72,11 +72,11 @@ function onReject() {
 
     // 更新标题文本
     if (clickCount === 2) {
-        titleElement.textContent = '我们可以试着和好嘛？';
+        titleElement.textContent = '我可以尝试时间你吗？';
     } else if (clickCount === 4) {
-        titleElement.textContent = '和好是有可能的！';
+        titleElement.textContent = '时间是有可能的！';
     } else if (clickCount === 5) {
-        titleElement.textContent = '我们一定能和好吧！';
+        titleElement.textContent = '我一定能时间你的！';
     }
 }
 
@@ -125,7 +125,7 @@ function onAccept() {
     // 保持 current 不变，让 update() 函数自然过渡（约0.3秒完成）
     
     // 更新标题文本
-    titleElement.textContent = '我们一定能和好的！';
+    titleElement.textContent = '我当然可以时间你，我可是你的主人！';
 }
 
 
